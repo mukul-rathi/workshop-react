@@ -1,0 +1,13 @@
+.Button {
+  display: inline-block;
+  background-color: azure;
+  margin: 2em auto 1em auto;
+  width: 10em;
+  transition: 0.3s ease-in-out;
+  fill: azure;
+  border-radius: 8px;
+}
+
+.Button:active {
+  transform: scale(0.85);
+}
